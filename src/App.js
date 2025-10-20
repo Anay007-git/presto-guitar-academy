@@ -84,26 +84,30 @@ function App() {
 
 export default App;
 
-// Global theme styles
+// Jbanez Guitar Theme Styles
 const globalStyles = `
   :root {
-    --bg-primary: #0a0a0a;
-    --bg-secondary: #1a1a2e;
+    --bg-primary: #0d0d0d;
+    --bg-secondary: #1a1a1a;
     --text-primary: #ffffff;
-    --text-secondary: #b0b0b0;
-    --accent: #667eea;
-    --border: rgba(255, 255, 255, 0.1);
-    --glass: rgba(255, 255, 255, 0.05);
+    --text-secondary: #cccccc;
+    --accent: #ff6b35;
+    --accent-secondary: #ff8c42;
+    --border: rgba(255, 107, 53, 0.2);
+    --glass: rgba(255, 107, 53, 0.1);
+    --dark-overlay: rgba(0, 0, 0, 0.8);
   }
   
   [data-theme="light"] {
     --bg-primary: #ffffff;
-    --bg-secondary: #e0f2fe;
-    --text-primary: #0f172a;
-    --text-secondary: #334155;
-    --accent: #0ea5e9;
-    --border: rgba(14, 165, 233, 0.3);
-    --glass: rgba(14, 165, 233, 0.1);
+    --bg-secondary: #f8f9fa;
+    --text-primary: #2c2c2c;
+    --text-secondary: #666666;
+    --accent: #ff6b35;
+    --accent-secondary: #ff8c42;
+    --border: rgba(255, 107, 53, 0.3);
+    --glass: rgba(255, 107, 53, 0.1);
+    --dark-overlay: rgba(255, 255, 255, 0.9);
   }
   
   [data-theme="light"] .tab-btn {
